@@ -2,7 +2,7 @@
 /* Body */
 
 body {
-    background: #399890;
+   
      margin: 0;
   }
 
@@ -11,15 +11,13 @@ body {
 
 
 .content {
-
 	margin-left: 20px;
 	margin-right: 20px;
 	margin-top: 20px;
-     padding-left: 20px;
-	 padding-right: 20px;
-     padding-top: 20px;
-     padding-bottom: 20px;
-      
+  padding-left: 20px;
+	padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   }
 
   /*foooter*/
@@ -49,7 +47,7 @@ textarea {
 
 .btn-submit {
 	margin-top: 10px;
-	background-color: rgb(152, 89, 152);
+	background-color: rgb(58, 3, 58);
 	color: white;
 	border: none;
 	border-radius: 100px;
@@ -116,7 +114,7 @@ blockquote {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #399890;
+  background-color: skyblue;
   color: white;
 }
 
