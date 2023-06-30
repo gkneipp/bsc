@@ -2,7 +2,6 @@
 /* Body */
 
 body {
-   
      margin: 0;
   }
 
@@ -136,6 +135,7 @@ img {
 
 .heading {
   padding-left: 40px;
+  padding-top: 45px;
 }
 
 h1 {
@@ -201,6 +201,18 @@ h2 {
 
   .backgroundimg {
     background-image: url("/images/tv-gym-instruction.png");
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .visual {
+    border-radius: 10px;
+  }
+
+  .backgroundweights {
+    background-image: url("/images/tv-gym-weights.png");
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;
