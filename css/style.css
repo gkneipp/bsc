@@ -134,6 +134,10 @@ img {
   padding-top: 20px;
 }
 
+.heading {
+  padding-left: 40px;
+}
+
 h1 {
   display: block;
   font-size: 2em;
@@ -167,4 +171,42 @@ h2 {
 	.about-column {
 	  width: 100%;
 	}
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("/images/tv-beach-exercises.png");
+  
+    /* Full height */
+    height: 50%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .backg {
+    background-image: url("/images/tv-gym-activity.png");
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .backgroundimg {
+    background-image: url("/images/tv-gym-instruction.png");
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .visual {
+    border-radius: 10px;
   }
