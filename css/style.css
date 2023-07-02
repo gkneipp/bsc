@@ -141,6 +141,7 @@ img {
 h1 {
   display: block;
   font-size: 2em;
+  margin-right: 20px;
 }
 
 h2 {
