@@ -3,6 +3,8 @@
 
 body {
      margin: 0;
+     background-color: #1A1A1A;
+     font: lora;
   }
 
 /*header*/
@@ -17,6 +19,8 @@ body {
 	padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: #323535;
+  color: whitesmoke;
   }
 
   /*foooter*/
@@ -25,6 +29,7 @@ footer {
     padding-top: 50px;
     padding-bottom: 10px;
     text-align: center;
+    color: grey;
 }
 
 /*contact form*/
@@ -42,6 +47,10 @@ textarea {
 
 #input {
   width: 200px;
+}
+
+a {
+  color: lightblue;
 }
 
 .btn-submit {
@@ -90,7 +99,7 @@ blockquote {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: steelblue;
+  background-color: grey;
   overflow: hidden;
 }
 
@@ -98,7 +107,7 @@ blockquote {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -107,14 +116,14 @@ blockquote {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: skyblue;
-  color: black;
+  background-color: darkgray;
+  color: #3D0C01;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: skyblue;
-  color: white;
+  background-color: goldenrod;
+  color: black;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -142,11 +151,13 @@ h1 {
   display: block;
   font-size: 2em;
   margin-right: 20px;
+  color: 	goldenrod;
 }
 
 h2 {
   display: block;
   font-size: 1.5em;
+  color: gold
 }
 
 * {
@@ -198,6 +209,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 50px;
   }
 
   .backgroundimg {
@@ -206,6 +218,7 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 50px;
   }
 
   .visual {
@@ -233,7 +246,7 @@ h2 {
   }
   
   .price {
-    color: grey;
+    color: gold;
     font-size: 22px;
   }
   
@@ -242,7 +255,7 @@ h2 {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: skyblue;
+    background-color: rgb(173, 5, 5);
     text-align: center;
     cursor: pointer;
     width: 100%;
