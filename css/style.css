@@ -23,6 +23,52 @@ body {
   color: whitesmoke;
   }
 
+  body, html {
+    height: 100%;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("../images/tv-beach-exercises.png");
+  
+    /* Full height */
+    height: 60%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-2 {
+    /* The image used */
+    background-image: url("../images/tv-gym-weights.png");
+  
+    /* Full height */
+    height: 40%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax-3 {
+    /* The image used */
+    background-image: url("../images/tv-weight-pack.png");
+  
+    /* Full height */
+    height: 60%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   /*foooter*/
 
 footer {
@@ -157,7 +203,7 @@ h1 {
 h2 {
   display: block;
   font-size: 1.5em;
-  color: gold
+  color: goldenrod;
 }
 
 * {
@@ -190,7 +236,7 @@ h2 {
     margin: 0;
   }
   
-  .bg {
+  /*.bg {
     /* The image used */
     background-image: url("/images/tv-beach-exercises.png");
   
@@ -201,18 +247,18 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  }*/
 
-  .backg {
+  /*.backg {
     background-image: url("/images/tv-gym-activity.png");
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 50px;
-  }
+  }*/
 
-  .backgroundimg {
+  /* .backgroundimg {
     background-image: url("/images/tv-gym-instruction.png");
     height: 50%; 
     background-position: center;
@@ -224,14 +270,16 @@ h2 {
   .visual {
     border-radius: 10px;
   }
+  */
 
-  .backgroundweights {
+  /*.backgroundweights {
     background-image: url("/images/tv-gym-weights.png");
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
+  */
 
   .visual {
     border-radius: 10px;
@@ -246,7 +294,7 @@ h2 {
   }
   
   .price {
-    color: gold;
+    color: goldenrod;
     font-size: 22px;
   }
   
@@ -265,3 +313,9 @@ h2 {
 /*  .card button:hover {
     opacity: 0.7;
   } */
+
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
