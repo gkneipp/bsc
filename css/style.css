@@ -235,19 +235,6 @@ h2 {
     height: 100%;
     margin: 0;
   }
-  
-  /*.bg {
-    /* The image used */
-    background-image: url("/images/tv-beach-exercises.png");
-  
-    /* Full height */
-    height: 50%; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }*/
 
   /*.backg {
     background-image: url("/images/tv-gym-activity.png");
@@ -265,12 +252,11 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 50px;
-  }
+  }*/
 
   .visual {
     border-radius: 10px;
   }
-  */
 
   /*.backgroundweights {
     background-image: url("/images/tv-gym-weights.png");
