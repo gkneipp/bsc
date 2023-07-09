@@ -27,19 +27,16 @@ body {
     height: 100%;
   }
   
- /* .parallax {
-
+ .parallax {
     background-image: url("../images/tv-beach-exercise.png");
-  
     height: 60%;
-  
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   } */
 
-  /* .parallax-2 {
+  .parallax-2 {
     background-image: url("../images/tv-gym-weights.png");
     height: 40%;
     background-attachment: fixed;
@@ -48,14 +45,14 @@ body {
     background-size: cover;
   } */
 
- /* .parallax-3 {
+ .parallax-3 {
     background-image: url("../images/tv-weight-pack.png");
     height: 60%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  } */
+  }
 
   /*foooter*/
 
