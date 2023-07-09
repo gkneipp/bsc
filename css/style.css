@@ -307,4 +307,16 @@ h2 {
     .parallax {
       background-attachment: scroll;
     }
+
+    .parallax-2 {
+      background-attachment: scroll;
+    }
+
+    .parallax-3 {
+      background-attachment: scroll;
+    }
+
+    .parallax-4 {
+      background-attachment: scroll;
+    }
   }
