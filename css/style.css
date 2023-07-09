@@ -33,25 +33,34 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-  } */
+    background-size: contain;
+  } 
 
   .parallax-2 {
-    background-image: url("../images/tv-gym-weights.png");
-    height: 40%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
-
- .parallax-3 {
     background-image: url("../images/tv-weight-pack.png");
     height: 60%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+  } 
+
+ .parallax-3 {
+    background-image: url("../images/tv-gym-weights.png");
+    height: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .parallax-4 {
+    background-image: url("../images/tv-gym-instruction.png");
+    height: 70%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   /*foooter*/
