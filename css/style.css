@@ -3,7 +3,7 @@
 
 body {
      margin: 0;
-     background-color: #1A1A1A;
+     background-color: rgb(35, 35, 35);
      font: lora;
   }
 
@@ -14,13 +14,13 @@ body {
 .content {
 	margin-left: 20px;
 	margin-right: 20px;
-	margin-top: 20px;
+	margin-top: 0px;
   padding-left: 20px;
 	padding-right: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #323535;
   color: whitesmoke;
+  font-family: Arial, sans-serif;
   }
 
   body, html {
@@ -37,7 +37,7 @@ body {
   } 
 
   .parallax-2 {
-    background-image: url("../images/tv-weight-pack.png");
+    background-image: url("../images/science.png");
     height: 60%;
     background-attachment: fixed;
     background-position: center;
@@ -162,7 +162,7 @@ blockquote {
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: goldenrod;
+  background-color: rgb(241, 248, 83);
   color: black;
 }
 
@@ -191,13 +191,15 @@ h1 {
   display: block;
   font-size: 2em;
   margin-right: 20px;
-  color: 	goldenrod;
+  color: 	rgb(241, 248, 83);
+  font-family: Arial, sans-serif;
 }
 
 h2 {
   display: block;
   font-size: 1.5em;
-  color: goldenrod;
+  color: rgb(241, 248, 83);
+  font-family: Arial, sans-serif;
 }
 
 * {
@@ -283,7 +285,7 @@ h2 {
   }
   
   .price {
-    color: goldenrod;
+    color: rgb(241, 248, 83);
     font-size: 22px;
   }
   
