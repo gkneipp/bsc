@@ -55,7 +55,7 @@ body {
   }
 
   .parallax-4 {
-    background-image: url("../images/tv-gym-instruction.png");
+    background-image: url("../images/classes-blue.png");
     height: 70%;
     background-attachment: fixed;
     background-position: center;
@@ -157,7 +157,7 @@ blockquote {
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: darkgray;
-  color: firebrick;
+  color: rgb(56, 102, 190);
 }
 
 /* Add an active class to highlight the current page */
@@ -294,7 +294,7 @@ h2 {
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: rgb(173, 5, 5);
+    background-color: rgb(56, 102, 190);
     text-align: center;
     cursor: pointer;
     width: 100%;
