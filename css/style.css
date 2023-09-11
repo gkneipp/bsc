@@ -7,6 +7,12 @@ body {
      font: lora;
   }
 
+.services {
+    background-image: url(../images/serices.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
 /*header*/
 /*NAVBAR STYLES*/
 
@@ -29,7 +35,7 @@ body {
   
  .parallax {
     background-image: url("../images/home-yellow.png");
-    height: 60%;
+    height: 50%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,7 +44,7 @@ body {
 
   .parallax-2 {
     background-image: url("../images/science.png");
-    height: 60%;
+    height: 45%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,7 +53,7 @@ body {
 
  .parallax-3 {
     background-image: url("../images/serices.png");
-    height: 70%;
+    height: 50%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -228,7 +234,7 @@ h2 {
   }
 
   body, html {
-    height: 100%;ßß
+    height: 100%;
     margin: 0;
   }
 
@@ -292,7 +298,7 @@ h2 {
   .card button {
     border: none;
     outline: 0;
-    padding: 12px;
+    padding: 2px;
     color: white;
     background-color: rgb(56, 102, 190);
     text-align: center;
