@@ -7,10 +7,14 @@ body {
      font: lora;
   }
 
+.classes {
+  background-color: rgb(56, 102, 190);
+}
+
 .services {
     background-image: url(../images/serices.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: ;
   }
 
 /*header*/
@@ -193,6 +197,12 @@ img {
   padding-top: 45px;
 }
 
+.header {
+  padding-left: 40px;
+  padding-top: 45px;
+  color: black;
+}
+
 h1 {
   display: block;
   font-size: 2em;
@@ -205,6 +215,13 @@ h2 {
   display: block;
   font-size: 1.5em;
   color: rgb(241, 248, 83);
+  font-family: Arial, sans-serif;
+}
+
+.card-h2 {
+  display: block;
+  font-size: 1.5em;
+  color: lightskyblue;
   font-family: Arial, sans-serif;
 }
 
